@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menok</title>
+    <meta name="description" content="Invest & Ventures. Palma, Mallorca.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg: #0a0a0a;
+            --text: #e0e0e0;
+            --dim: #555;
+            --accent: #c9a84c;
+            --rule: #1a1a1a;
+        }
+
+        body {
+            font-family: 'JetBrains Mono', monospace;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 520px;
+            width: 100%;
+        }
+
+        .logo {
+            font-size: 2.4rem;
+            font-weight: 500;
+            letter-spacing: 0.3em;
+            margin-bottom: 0.4rem;
+            color: var(--text);
+        }
+
+        .tagline {
+            font-size: 0.8rem;
+            color: var(--dim);
+            font-weight: 300;
+            letter-spacing: 0.05em;
+            margin-bottom: 3rem;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid var(--rule);
+            margin: 2rem 0;
+        }
+
+        .section {
+            margin-bottom: 2.5rem;
+        }
+
+        .section-title {
+            font-size: 0.65rem;
+            font-weight: 500;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 0.8rem;
+        }
+
+        .section p {
+            font-size: 0.85rem;
+            line-height: 1.7;
+            font-weight: 300;
+            color: var(--dim);
+        }
+
+        .section p strong {
+            color: var(--text);
+            font-weight: 400;
+        }
+
+        .contact {
+            font-size: 0.75rem;
+            color: var(--dim);
+            font-weight: 300;
+            letter-spacing: 0.05em;
+        }
+
+        .contact a {
+            color: var(--dim);
+            text-decoration: none;
+            border-bottom: 1px solid var(--rule);
+            transition: color 0.2s, border-color 0.2s;
+        }
+
+        .contact a:hover {
+            color: var(--accent);
+            border-color: var(--accent);
+        }
+
+        .footer {
+            margin-top: 4rem;
+            font-size: 0.65rem;
+            color: var(--rule);
+            letter-spacing: 0.05em;
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 1.5rem;
+                align-items: flex-start;
+                padding-top: 3rem;
+            }
+
+            .logo {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">MENOK</div>
+        <div class="tagline">men ok...</div>
+
+        <hr>
+
+        <div class="section">
+            <div class="section-title">Invest</div>
+            <p>
+                <strong>Precious metals. Junior miners.</strong><br>
+                Digging through annual reports so you don't have to.<br>
+                Actually, nobody asked us to. We just like holes in the ground.
+            </p>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Ventures</div>
+            <p>
+                <strong>Real estate & projects that make sense.</strong><br>
+                Currently building in Palma de Mallorca.<br>
+                Slowly. On purpose.
+            </p>
+        </div>
+
+        <hr>
+
+        <div class="contact">
+            <a href="mailto:ct@menok.se">ct@menok.se</a>
+        </div>
+
+        <div class="footer">Palma de Mallorca</div>
+    </div>
+</body>
+</html>
