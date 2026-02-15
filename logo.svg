@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#0a0a0a"/>
+
+  <!-- Shrug arms and face - hand drawn feel -->
+  <!-- Left arm -->
+  <line x1="160" y1="320" x2="250" y2="280" stroke="#e0e0e0" stroke-width="4" stroke-linecap="round"/>
+  <line x1="250" y1="280" x2="280" y2="340" stroke="#e0e0e0" stroke-width="4" stroke-linecap="round"/>
+  <!-- Left hand/palm -->
+  <line x1="145" y1="310" x2="175" y2="310" stroke="#e0e0e0" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Right arm -->
+  <line x1="640" y1="320" x2="550" y2="280" stroke="#e0e0e0" stroke-width="4" stroke-linecap="round"/>
+  <line x1="550" y1="280" x2="520" y2="340" stroke="#e0e0e0" stroke-width="4" stroke-linecap="round"/>
+  <!-- Right hand/palm -->
+  <line x1="625" y1="310" x2="655" y2="310" stroke="#e0e0e0" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Face - simple circle -->
+  <circle cx="400" cy="330" r="70" stroke="#e0e0e0" stroke-width="4" fill="none"/>
+  <!-- Eyes - two dots -->
+  <circle cx="375" cy="320" r="5" fill="#e0e0e0"/>
+  <circle cx="425" cy="320" r="5" fill="#e0e0e0"/>
+  <!-- Mouth - flat line (meh) -->
+  <line x1="380" y1="350" x2="420" y2="350" stroke="#e0e0e0" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- MENOK -->
+  <text x="400" y="510" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', monospace" font-size="88" fill="#e0e0e0" font-weight="500" letter-spacing="16">MENOK</text>
+
+  <!-- men ok... -->
+  <text x="400" y="570" text-anchor="middle" font-family="'JetBrains Mono', 'SF Mono', 'Fira Code', monospace" font-size="28" fill="#555555" font-weight="300">men ok...</text>
+</svg>
